@@ -1,0 +1,19 @@
+{
+  "name": "municipal-sky-onomatopoeia-bot",
+  "version": "1.0.0",
+  "description": "Serverless API for dual AI onomatopoeia generation",
+  "main": "api/chat.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Municipal Sky",
+  "license": "MIT"
+}
